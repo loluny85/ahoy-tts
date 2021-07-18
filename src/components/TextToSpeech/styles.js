@@ -23,3 +23,29 @@ export const Speak = styled.img`
     height: 48px;
     margin-left: 24px;
 `;
+
+export const Loader = styled.img`
+    height: 48px;
+`;
+
+export const Underline = styled.div`
+    width: 40px;
+    height: 1px;
+    border-top: 4px solid #FF0102;
+    margin-top: -12px;
+`;
+
+export const AudioText = styled.div`
+    width: 140px;
+    padding-left: 16px;
+    font-style: italic;
+    font-size: 14px;
+`;
+export const ErrorMsg = styled.div`
+    margin-top: 8px;
+    color: #D8000C;
+    font-size: 14px;
+`;
+
+
+

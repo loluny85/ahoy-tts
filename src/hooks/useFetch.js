@@ -3,10 +3,11 @@ import axios from "axios"
 
 const useFetch = ({ method, url, headers, data, options }) => {
   const [response, setResponse] = useState(null)
-  const [pending, setPending] = useState(true)
+  const [pending, setPending] = useState(false)
   const [error, setError] = useState(null)
 
   const execute = () => {
+    setPending(true)
     axios({
       method,
       url,
@@ -23,7 +24,6 @@ const useFetch = ({ method, url, headers, data, options }) => {
         setError(err)
       });
   }
-
   return { execute, response, pending, error }
 }
 
