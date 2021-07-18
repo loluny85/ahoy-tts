@@ -1,0 +1,49 @@
+* {
+    outline: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-direction-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.justify-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.disableIcon {
+    opacity: 0.4;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.icon {
+    height: 15px;
+    width: 15px;
+}
+
+.pointer {
+    cursor: pointer
+}
+
+.ellipses {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hideVisibility {
+    visibility: hidden;
+}
